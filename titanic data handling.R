@@ -16,4 +16,4 @@ smallTitanic %<>% mutate(category=case_when(class=="1st"~1,
 
 smallTitanic %<>% mutate(age=round(age,2))
 
-write_csv(smallTitanic,"mincemeat_updatedByMC_2025.csv")
+write_csv(smallTitanic,"mincemeat_updatedByMC_2025.csv") 
